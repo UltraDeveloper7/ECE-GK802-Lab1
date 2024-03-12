@@ -1,34 +1,53 @@
 # ECE-GK802-Lab1
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Requirements](#requirements)
+3. [Installation](#installation)
+    - [Download through Git](#download-through-git)
+    - [Download through ZIP file](#download-through-zip-file)
+4. [Usage](#usage)
+5. [License](#license)
+6. [Acknowledgments](#acknowledgments)
 
+## Overview
+This Python program, named [lab1-1.py](lab1.py), prompts the user for a URL, sends an HTTP request to that URL, and prints the headers of the HTTP response. Additionally, it includes functionality to retrieve information about the server and cookies, if present.
 
-## Περιγραφή
-Αυτό το πρόγραμμα Python, με όνομα [lab1-1.py](lab1.py), ζητά από τον χρήστη ένα URL, πραγματοποιεί ένα αίτημα HTTP σε αυτό το URL, και τυπώνει τις κεφαλίδες (headers) της απόκρισης HTTP. Στη συνέχεια, περιέχει επιπλέον λειτουργικότητα που ανακτά πληροφορίες για τον εξυπηρετητή και τα cookies, εάν υπάρχουν.
-
-## Οδηγίες
-
-1. Εκτελέστε το πρόγραμμα [lab1-1.py](lab1.py).
-2. Εισάγετε το URL που επιθυμείτε.
-3. Το πρόγραμμα θα εκτελέσει ένα αίτημα HTTP στο καθορισμένο URL και θα εμφανίσει τις κεφαλίδες της απόκρισης HTTP.
-4. Πρόσθετα, θα εμφανίσει τις πληροφορίες για το λογισμικό που χρησιμοποιεί ο εξυπηρετητής, καθώς και πληροφορίες για τα cookies, αν υπάρχουν.
-
-## Απαιτήσεις
+## Requirements
 - Python 3.x
-- Σύνδεση στο διαδίκτυο
+- Internet connection
 
-## Οδηγίες Εγκατάστασης
-Δεν απαιτείται εγκατάσταση επιπλέον βιβλιοθηκών. Απλώς εκτελέστε το πρόγραμμα χρησιμοποιώντας την Python.
+## Installation
+No additional library installations are required. Simply execute the program using Python.
 
 ```bash
 python lab1-1.py
 ```
 
-## Πηγές Πληροφοριών
-- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) για πληροφορίες σχετικά με τις κεφαλίδες HTTP.
+### Download through Git
+If you have Git installed, you can clone the repository using the following command:
 
-## Άδεια
-Αυτό το πρόγραμμα διανέμεται υπό την άδεια [MIT License](LICENSE).
+```bash
+git clone https://github.com/UltraDeveloper7/ECE-GK802-Lab1.git
+```
+
+### Download through ZIP file
+1. Navigate to the GitHub repository: [ECE-GK802-Lab1](https://github.com/UltraDeveloper7/ECE-GK802-Lab1).
+2. Click on the "Code" button.
+3. Select "Download ZIP."
+4. Extract the ZIP file to your desired location.
+
+## Usage
+1. Execute the program [lab1-1.py](lab1.py).
+2. Enter the desired URL when prompted.
+3. The program will send an HTTP request to the specified URL and display the headers of the HTTP response.
+4. Additionally, it will provide information about the server software and details about cookies if they exist.
+
+## License
+This program is distributed under the [MIT License](LICENSE).
+
+## Acknowledgments
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers) for information regarding HTTP headers.
 
 ---
-
-Καλή εξάσκηση! 🚀
+Happy coding! 🚀
